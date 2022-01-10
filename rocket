@@ -1,0 +1,32 @@
+public class rockets {
+    public static void main(String[] args){{
+        printTop();
+        printMidline();
+        printSide();
+        printMidline();
+        printUnited();
+        printMidline();
+        printSide();
+        printMidline();
+        printTop();}
+    }
+    public static void printTop()
+    {
+        System.out.println("   /\\   "+"    /\\");
+        System.out.println("  /  \\   "+"  /  \\");
+        System.out.println(" /    \\   "+"/    \\");
+    }
+    public static void printMidline(){
+        System.out.println("+______+ "+"+______+");
+    }
+    public static void printSide(){
+        System.out.println("|      |"+" |      |");
+        System.out.println("|      |"+" |      |");
+    }
+    public static void printUnited(){
+        System.out.println("|United|"+" |United|");
+        System.out.println("|United|"+" |United|");
+    }
+
+    
+}
