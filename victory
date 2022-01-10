@@ -1,0 +1,15 @@
+public class victory {
+    
+
+    public static void printPattern(String Pattern)
+    {
+        for(int i=0; i<=21; i++) {
+            System.out.print(Pattern);
+        }  
+}
+public static void main(String[] args) {
+printPattern("/");
+System.out.print("\n || Victory is mine || \n");
+printPattern("\\");
+}
+}
